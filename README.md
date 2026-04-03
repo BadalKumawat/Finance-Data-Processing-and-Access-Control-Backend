@@ -39,32 +39,33 @@ The system enforces authorization at both the view and object levels:
 
 ## Installation & Local Setup
 
-1. **Clone the repository**
+### 1. **Clone the repository**
 
-git clone https://github.com/BadalKumawat/Finance-Data-Processing-and-Access-Control-Backend.git
-cd finance_system
+**git clone https://github.com/BadalKumawat/Finance-Data-Processing-and-Access-Control-Backend.git**
+**cd finance_system**
 
 
-2. **Create and activate a virtual environment**
+### 2. **Create and activate a virtual environment**
 
 python -m venv venv
-# On Windows
-venv\Scripts\activate
-# On Mac/Linux
-source venv/bin/activate
+#### On Windows
+**venv\Scripts\activate**
+#### On Mac/Linux
+**source venv/bin/activate**
 
-3. **INSTALL DEPENDECY**
+### --
+### 3. **INSTALL DEPENDECY**
 
-pip install -r requirements.txt
+**pip install -r requirements.txt**
 
-4. **Run Migrations & Setup Database**
+### 4. **Run Migrations & Setup Database**
 
 python manage.py makemigrations
-python manage.py migrate
+**python manage.py migrate**
 
-5. **Create a Superuser (Admin)**
+### 5. **Create a Superuser (Admin)**
 
-python manage.py createsuperuser
+**python manage.py createsuperuser**
 
 
 # API Documentation
@@ -74,7 +75,7 @@ python manage.py createsuperuser
 
 * ReDoc: http://127.0.0.1:8000/redoc/
 
- # -- Note: For protected endpoints, first login via /api/auth/login/, copy the access token, and paste it in the "Authorize" lock icon at the top of the Swagger page (Format: Bearer <your_token>).
+ ##### -- Note: For protected endpoints, first login via /api/auth/login/, copy the access token, and paste it in the "Authorize" lock icon at the top of the Swagger page (Format: Bearer <your_token>).
 
 # Assumptions & Trade-offs
 * While designing this backend, I made the following practical assumptions:
