@@ -53,6 +53,7 @@ venv\Scripts\activate
 # On Mac/Linux
 source venv/bin/activate
 
+# --
 3. **INSTALL DEPENDECY**
 
 pip install -r requirements.txt
