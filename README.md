@@ -75,7 +75,7 @@ python manage.py makemigrations
 
 * ReDoc: http://127.0.0.1:8000/redoc/
 
- # -- Note: For protected endpoints, first login via /api/auth/login/, copy the access token, and paste it in the "Authorize" lock icon at the top of the Swagger page (Format: Bearer <your_token>).
+ ##### -- Note: For protected endpoints, first login via /api/auth/login/, copy the access token, and paste it in the "Authorize" lock icon at the top of the Swagger page (Format: Bearer <your_token>).
 
 # Assumptions & Trade-offs
 * While designing this backend, I made the following practical assumptions:
