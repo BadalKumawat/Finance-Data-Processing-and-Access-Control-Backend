@@ -126,6 +126,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 CORS_ALLOW_ALL_ORIGINS= True
 AUTH_USER_MODEL= 'users.User'  # as we are using custome user Model not django built in model(Abstract User Model)
